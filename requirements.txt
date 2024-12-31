@@ -1,2 +1,5 @@
 streamlit
 pandas
+numpy
+sklearn
+sentence-transformers
