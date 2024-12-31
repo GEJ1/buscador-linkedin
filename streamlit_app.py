@@ -12,12 +12,21 @@ st.markdown("""
     <h3 style="margin-top: 0.5em; font-weight: normal;">
         <a href="https://www.linkedin.com/in/gustavo-juantorena/" 
            target="_blank" 
-           style="color: #0073b1; text-decoration: none;">
+           style="color: #0073b1; text-decoration: none; margin-right: 20px;">
            🌐 Seguime en LinkedIn
+        </a>
+        <a href="https://github.com/gej1" 
+           target="_blank" 
+           style="color: black; text-decoration: none;">
+           <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                alt="GitHub" 
+                style="width: 30px; vertical-align: middle; margin-right: 8px;">
+           Mi GitHub
         </a>
     </h3>
 </div>
 """, unsafe_allow_html=True)
+
 @st.cache_data
 def get_google_trends(query):
     """Obtiene datos de tendencias de Google Trends."""
