@@ -69,7 +69,8 @@ def get_top_similar_posts(query, data, embeddings, model, top_n):
     return data.sort_values(by="similarity", ascending=False).head(top_n)
 
 # Ruta del archivo de datos
-file_path = "Shares_with_embeddings_sentence_similarity_spanish_es_JSON.csv"
+file_path = "data/Shares_with_embeddings_sentence_similarity_spanish_es_JSON.csv"
+
 
 # Cargar datos y modelo
 with st.spinner("Cargando datos y modelo..."):

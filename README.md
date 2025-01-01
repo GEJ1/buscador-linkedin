@@ -1,6 +1,8 @@
 # Buscador-linkedin
 
-### How to run it on your own machine
+Más información: https://www.linkedin.com/feed/update/urn:li:activity:7280275216038047745/
+
+### Para ejecutar localmente
 
 1. Install the requirements
 
