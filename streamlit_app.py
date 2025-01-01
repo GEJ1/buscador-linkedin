@@ -9,7 +9,7 @@ from pytrends.request import TrendReq
 st.markdown("""
 <div style="text-align: center;">
     <h1 style="font-size: 2.5em; margin-bottom: 0.5em;">🔍 Búsqueda Semántica de Publicaciones en LinkedIn</h1>
-    <h3 style="margin-top: 0.5em; font-weight: normal;">
+    <h2 style="margin-top: 0.5em; font-weight: normal;">
         <a href="https://www.linkedin.com/in/gustavo-juantorena/" 
            target="_blank" 
            style="color: #0073b1; text-decoration: none; margin-right: 20px;">
@@ -23,7 +23,7 @@ st.markdown("""
                 style="width: 30px; vertical-align: middle; margin-right: 8px;">
            Mi GitHub
         </a>
-    </h3>
+    </h2>
 </div>
 """, unsafe_allow_html=True)
 
