@@ -91,7 +91,10 @@ if submit_button and query:
         # Obtener resultados
         results = get_top_similar_posts(query, data, embeddings, model, top_n)
             # Mostrar el gráfico de Google Trends pequeño
-        trends_data = get_google_trends(query)
+        try:
+            trends_data = get_google_trends(query)
+        except:
+            pass
         if trends_data is not None:
             st.write("### Tendencias de Google para tu consulta:")
             st.line_chart(trends_data.set_index('date')[[query]], height=150)
