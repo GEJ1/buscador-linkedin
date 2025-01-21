@@ -94,7 +94,7 @@ if submit_button and query:
         try:
             trends_data = get_google_trends(query)
         except:
-            pass
+            trends_data = None
         if trends_data is not None:
             st.write("### Tendencias de Google para tu consulta:")
             st.line_chart(trends_data.set_index('date')[[query]], height=150)
