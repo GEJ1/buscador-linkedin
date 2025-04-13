@@ -24,8 +24,16 @@ st.markdown("""
            Mi GitHub
         </a>
     </h2>
+    <h2 style="margin-top: 1em; font-weight: normal;">
+        <a href="https://gustavojuantorena.substack.com/p/construyendo-un-buscador-semantico" 
+           target="_blank" 
+           style="color: #ea580c; text-decoration: none;">
+           ✍️ Cómo creé esta app
+        </a>
+    </h2>
 </div>
 """, unsafe_allow_html=True)
+
 
 @st.cache_data
 def get_google_trends(query):
