@@ -7,32 +7,40 @@ import json
 from pytrends.request import TrendReq
 
 st.markdown("""
-<div style="text-align: center;">
-    <h1 style="font-size: 2.5em; margin-bottom: 0.5em;">🔍 Búsqueda Semántica de Publicaciones en LinkedIn</h1>
-    <h2 style="margin-top: 0.5em; font-weight: normal;">
+<div style="text-align: center; font-family: 'Segoe UI', sans-serif;">
+
+    <h1 style="font-size: 2.5em; margin-bottom: 0.2em;">
+        🔍 <strong>Búsqueda Semántica de Publicaciones en LinkedIn</strong>
+    </h1>
+
+    <div style="margin: 10px 0;">
         <a href="https://www.linkedin.com/in/gustavo-juantorena/" 
            target="_blank" 
-           style="color: #0073b1; text-decoration: none; margin-right: 20px;">
+           style="color: #0a66c2; text-decoration: none; font-size: 1.2em; margin-right: 20px;">
            🌐 Seguime en LinkedIn
         </a>
+
         <a href="https://github.com/gej1" 
            target="_blank" 
-           style="color: black; text-decoration: none;">
+           style="color: black; text-decoration: none; font-size: 1.2em;">
            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
                 alt="GitHub" 
-                style="width: 30px; vertical-align: middle; margin-right: 8px;">
+                style="width: 20px; vertical-align: middle; margin-right: 6px;">
            Mi GitHub
         </a>
-    </h2>
-    <h2 style="margin-top: 1em; font-weight: normal;">
+    </div>
+
+    <div style="margin-top: 20px;">
         <a href="https://gustavojuantorena.substack.com/p/construyendo-un-buscador-semantico" 
            target="_blank" 
-           style="color: #ea580c; text-decoration: none;">
+           style="color: #f97316; text-decoration: none; font-size: 1.3em;">
            ✍️ Cómo creé esta app
         </a>
-    </h2>
+    </div>
+
 </div>
 """, unsafe_allow_html=True)
+
 
 
 @st.cache_data
